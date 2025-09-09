@@ -1,0 +1,62 @@
+body{
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+}
+.todo-main {
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 14px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 20px;
+  outline: none;
+}
+.send-btn{
+  padding: 15px 22px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+.display-message{
+  font-size: 20px;
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color:whitesmoke;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.todo-item button {
+  background-color: red;
+  color: white;
+}
+
+.todo-item button:hover {
+  background-color: #e63939;
+}.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
