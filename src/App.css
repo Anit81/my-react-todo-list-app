@@ -1,9 +1,4 @@
-body{
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
-  display: flex;
-  justify-content: center;
-}
+
 
 .container {
   background-color: white;
@@ -51,11 +46,14 @@ body{
 .todo-item button {
   background-color: red;
   color: white;
+  padding: 11px 17px;
+  border: none;
 }
 
 .todo-item button:hover {
   background-color: #e63939;
-}.completed {
+}
+.completed {
   text-decoration: line-through;
   color: #888;
 }
