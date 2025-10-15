@@ -14,7 +14,7 @@ A React app that allows users to manage their daily tasks efficiently.
 - State Management: useState, useEffect
 
 ## How to Run Locally
-1. Clone the repository: `git clone <your-repo-link>`
+1. Clone the repository: `git clone <https://github.com/Anit81/my-react-todo-list-app>`
 2. Navigate to the project folder: `cd todo-list-app`
 3. Install dependencies: `npm install`
 4. Start the app: `npm start`
